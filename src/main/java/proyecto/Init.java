@@ -99,7 +99,7 @@ public class Init {
 							int penetracio= scan.nextInt();
 							scan.nextLine();
 							ArmaPrincipal armaPrincipal= new ArmaPrincipal(nombre,descripcion, tipo, danioBase,alcanceMaximo,penetracio);
-							inventario.addArmaPrincipalInvertary(armaPrincipal);
+							inventario.addArmaPrincipalInventary(armaPrincipal);
 							break;
 						case 2:
 							System.out.println("Añade los datos del arma");
@@ -216,5 +216,6 @@ public class Init {
 	        return usuario;
 	    
 	}
+
 
 }
